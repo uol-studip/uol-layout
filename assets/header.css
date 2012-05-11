@@ -1,0 +1,31 @@
+header {
+    background: #f0f1f5 url(https://www.uni-oldenburg.de/img/css3/bilder/bogen1200.png) 0 -10px no-repeat;
+    display: block;
+    height: 110px;
+    position: relative;
+}
+header.small {
+    background: #0251a0;
+    height: 84px;
+}
+
+#uni-logo {
+    background: transparent url(https://www.uni-oldenburg.de/img/rahmen/logo.gif) left top no-repeat;
+    display: block;
+    height: 76px;
+    left: 0;
+    position: absolute;
+    text-indent: -999em;
+    top: 0;
+    width: 230px;
+}
+#studip-logo {
+    background: transparent url(images/header-logo-klein.png) left top no-repeat;
+    display: block;
+    height: 22px;
+    position: absolute;
+    right: 15px;
+    text-indent: -999em;
+    top: 10px;
+    width: 101px;
+}

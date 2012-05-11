@@ -1,0 +1,485 @@
+/*******************************************************
+ * Links
+ *******************************************************/
+.topic a, .topic a:link, .topic a:visited, .topic a:hover,
+.steel a, .steel a:link, .steel a:visited, .steel a:hover {
+    text-decoration: none !important;
+}
+
+.topic a {
+    color: #fff !important;
+}
+
+/*******************************************************
+ * Inhalt
+ *******************************************************/
+div#barBottomLeft {
+    background-color: #5d74a0;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.8em;
+    height: 1.4em;
+    text-align: right;
+    vertical-align: middle;
+    float: left;
+    color: #a1b9c0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#barBottommiddle {
+    background-color: #7387ac;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 0.8em;
+    height: 1.4em;
+    float: left;
+    margin-right: -3px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#rahmentabelle
+{
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+
+#rahmentabelle_kopf
+{
+    height: 90px;
+    vertical-align: top;
+}
+
+#rahmentabelle_inhalt
+{
+    vertical-align: top;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px 25px 25px 25px;
+    height: 100%;
+}
+
+.inday {
+    font-size: 11pt;
+}
+
+/* Aenderungen!!!!  td.toolbar und td.printhead rausgenommen, da weiss schlecht lesbar ist */
+td.topic,td.printhead2,td.printhead3 {
+    color: #FFFFFF;
+    /*background-color:#e0e6de;*/
+}
+
+/* oben raus,hier rein mit farbe grau*/
+td.toolbar, td.printhead {
+    color: #333333;
+    line-height: 150%;
+    /*background-color:#e0e6de;*/
+}
+
+td.topic b {
+    color: white !important;
+}
+
+td.topic img {
+    vertical-align: text-top !important;
+}
+
+.steel1, td.printcontent, .index_box_cell
+{
+    background-image: none !important;
+    background-color: #F2F2F2;
+}
+
+.steelgraulight {
+    background-image: none !important;
+    background-color: #E2E2E2;
+}
+
+td.steel1 td.steel1 {
+    border-width: 0;
+}
+
+td.steel1 ul.portal li {
+    margin-left: 10px;
+    list-style-image: url(li-grau.gif);
+}
+
+#page_margins {
+    width: auto !important;
+    /*max-width:1380px;*/
+}
+
+#site-titel {
+    display: none;
+}
+
+td.links1a,td.linksinfo {
+    border-bottom: 1px solid #000;
+}
+
+/*td.linksinfo {
+    text-indent: -0.5em;
+}*/
+
+td.links1a,td.links1c {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    border-right: 1px solid #000;
+}
+
+td.links1a a.links1a,td.links1c a.links1c,td.links1b a.links1b {
+    font-weight: 500 !important;
+    color: #003966 !important;
+    line-height: 150%;
+}
+
+td.links1a img,td.links1c img {
+    display: none;
+}
+
+td.links1c {
+    border-top: 1px solid #000;
+}
+
+td.links1b img {
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+}
+
+/* Navigation */
+a.toolbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+a.toolbar img {
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+    height: 21px;
+}
+
+#tabs a, #tabs2 a, #tabs a:link, #tabs2 a:link, #tabs a:visited, #tabs2 a:visited {
+    font-weight:normal;
+    color: black;
+}
+
+/*******************************************************
+ * Original Messageboxen!
+ *******************************************************/
+div.messagebox_info {
+    color: #00529B;
+    background-color: #bde5f8;
+}
+
+div.messagebox_success {
+    color: #4F8A10;
+    background-color: #dff2bf;
+}
+
+div.messagebox_warning {
+    color: #D63301;
+    background-color: #ffccba;
+}
+
+div.messagebox_error {
+    color: #D8000C;
+    background-color: #ffbaba;
+}
+
+/*******************************************************
+ * Footer
+ *******************************************************/
+#footer {
+    text-align: right;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+    z-index:100;
+    padding:0px;
+    margin:0px;
+}
+
+
+/*******************************************************
+ * Unpassende und fehlerhafte Sachen ueberschreiben
+ *******************************************************/
+.printhead2 a,
+.printhead3 a,
+#textkoerper a:hover img,
+#textkoerper a:focus img,
+#inhalt a:hover img,
+#inhalt a:focus img {
+    text-decoration: none !important;
+}
+
+select,input,textarea {
+    padding: 1px;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+blockquote {
+    padding: 10px !important;
+    margin: 0px !important;
+}
+
+td.angemeldet table {
+    padding: 5px;
+}
+
+td.blank {
+    padding: 0px;
+    /*font-size: 0.95em;*/
+    line-height: normal;
+}
+
+td.angemeldet .blank {
+    padding: 5px;
+}
+
+.steelgroup7 {
+    background-color: #D3DEF2;
+    background-image: none;
+}
+
+/* Name bei Homepage kleiner */
+.steel1 blockquote b font {
+    font-size: 24pt;
+    line-height: 150%;
+}
+
+
+
+/* verschiebung verhindern, achtung wirkt sich aber auf alle tabellen aus */
+table {
+    margin: 0px;
+}
+
+/* tabellenzellen haben etwas padding */
+.steel1, .steelgraulight, .steelgroup7 {
+    padding: 2px;
+}
+th, td.topic {
+    padding: 3px;
+    font-size: 10pt;
+}
+
+.topic, .topic b, .topic strong {
+    font-size: 10pt;
+    color:#FFFFFF;
+}
+
+table.steel1, table.steelgraulight {
+    padding: 0px;
+}
+
+
+/********************************************
+* Menü links
+*********************************************/
+#barTopMenuNKW ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+#barTopMenuNKW ul li
+{
+    height: 26px;
+    /*overflow: hidden;*/
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-left: 5px;
+    line-height: 190%;
+}
+
+#barTopMenuNKW ul li.open
+{
+    background-color: #99C85B;
+}
+
+#barTopMenuNKW ul li:hover
+{
+    background-color: #99C85B;
+}
+
+#barTopMenuNKW ul li a
+{
+    font-size: 11px !important;
+    font-weight: bold;
+    cursor: pointer;
+    height: 26px;
+    display: block;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+/* neue icons */
+#barTopMenuNKW ul li a div
+{
+    height: 16px;
+    width: 16px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    margin: 5px;
+    float: left;
+}
+
+/* hover icon */
+#barTopMenuNKW ul li a:hover div,
+#barTopMenuNKW ul li.active a:hover div,
+#barTopMenuNKW ul li.active a div {
+    background-position: -16px 0px;
+}
+
+/* new icon */
+#barTopMenuNKW ul li a div.new {
+    background-position: -32px 0px;
+}
+
+/* new hover icon */
+#barTopMenuNKW ul li a:hover div.new,
+#barTopMenuNKW ul li.active a:hover div.new,
+#barTopMenuNKW ul li.active a div.new {
+    background-position: -48px 0px;
+}
+
+
+#barTopMenuNKW ul li a:hover
+{
+    color: #000;
+    text-decoration: none;
+    background-color: #99C85B;
+}
+
+div.mainmenu a {
+    background-image: url(assets/images/icons/16/blue/arr_1right.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+div.mainmenu a:hover {
+    background-image: url(assets/images/icons/16/red/arr_1right.png);
+}
+
+/*******************************************************
+ * Oldenburger Quicksearch
+ *******************************************************/
+
+#quicksearch_autocomplete_choices ul li {
+    z-index: 100;
+    line-height: 100% !important;
+    text-transform: none;
+    height: auto;
+}
+
+#quicksearch_autocomplete_choices ul li:hover {
+    background-color: #FFFFBB !important;
+}
+
+
+
+.indexpage {
+    background-repeat: no-repeat;
+}
+
+#rahmentabelle_navi
+{
+    vertical-align: top;
+}
+
+table.index_box, div.index_container
+{
+    width:100%;
+}
+
+#ajax_notification {
+    position: absolute;
+    top: 75px;
+    background-color: #FFF !important;
+    left: 55%;
+    margin-left: -40px;
+    width: 80px;
+    overflow: hidden;
+}
+
+/* wofür is das? */ /*#menue ul li, #menue ul li.offen {
+    background-color: #E6EBDE !important;
+}*/
+#inhaltinfos,#inhaltinfos p {
+    background-color: #E6EBDE !important;
+}
+
+#inhaltinfos p a:hover {
+    background-color: #99C85B !important;
+}
+
+/* bei den infoboxen wird der weisse rechte rest aufgrund der inneren tabelle von 99% hiermit eingefaerbt. */
+.infoboxrahmen {
+    background-color: #DEE2E8;
+}
+
+.button {
+    padding: 0px;
+}
+
+/* 2 CSS Einträge für das MensaPlugin */
+.speise_eintrag {
+    margin-bottom: 5px;
+}
+
+.speise_preis {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+div.messagebox {
+    margin: 5px 0px !important;
+}
+
+div.quicksearch_frame {
+    width: auto !important;
+}
+
+/*******************************************************
+ * Footer aus 2.1
+ *******************************************************/
+html, body {
+    height: 100%;
+}
+
+#layout_wrapper {
+    margin: 0 auto -24px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#layout_push {
+    height: 24px;
+}
+#layout_footer {
+    background-color: #E6EBDE;
+    border: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+#layout_footer ul {
+    margin: 1px;
+}
+
+#layout_footer li {
+    padding: 2px 0.5em 3px;
+    display: inline;
+}
+
+div#barBottomright a, #layout_footer a {
+    text-decoration: none;
+    color: #24437C;
+    margin: 0 6px;
+}
+

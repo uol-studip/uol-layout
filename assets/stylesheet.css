@@ -1,0 +1,81 @@
+/* --- Schrift (Vorgaben: Typ, Größe, Farbe --------------------------------- */
+body, input, textarea, td, blockquote, p, form, ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #000000;
+}
+
+/* Formatierung der Seite */
+body {
+    min-height: 100.01%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+/* Hier kann ein umlaufender Rand um die gesamte Webseite erzeugt werden */
+#page_margins
+{
+    background:url(kopf-hg.gif) 0 -5px no-repeat transparent;
+    min-width: 800px;
+}
+
+
+/***************************************
+ * Inhalt-Styles
+ ***************************************/
+
+body {font-family:Arial, Helvetica, sans-serif;}
+
+h1,h2 {
+ font-size:1.3em;
+ margin:0 0 0 0;
+ font-weight:500;
+ padding:0 0 0;
+ font-family:Arial, Helvetica, Sans-Serif;
+ font-size:1.4em;
+/* padding-right:100px;*/
+ padding-bottom:1em;
+  color:#365F8C;
+  color:#235181;
+/*  height:46px; */
+ color:#2C345C;
+}
+h3 {
+ font-size:1.2em;
+ margin:0 0 0.5em 0;
+ font-weight:700;
+ padding:0.5em 0;
+ color:#0D59AB;
+ color:#0C54A1;
+ color:#365F8C;
+ color:#235181;
+  color:#2C345C;
+ font-family:Arial, Sans-Serif;
+}
+
+h4 {
+ font-size: 1.0em;
+ margin: 1.2em 0 0.2em 0;
+ font-weight:600;
+ color:#0C519B;
+ color:#235181;
+ color:#2C345C;
+}
+
+h1 + h4, h1 + h3 {
+ margin-top:0;
+}
+
+
+hr {
+ height:0;
+ border-top:1px solid #bEc0ca;
+ margin-bottom:0.5em;
+ margin-top:0.5em;
+}
+
+a:active {
+ color: black;
+}
+

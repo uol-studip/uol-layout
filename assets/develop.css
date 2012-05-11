@@ -1,0 +1,24 @@
+footer {
+    background: -webkit-linear-gradient(left top, #800 20%, #f0f1f5 80%);
+    background: -o-linear-gradient(left top, #800 20%, #f0f1f5 80%);
+    background: -ms-linear-gradient(left top, #800 20%, #f0f1f5 80%);
+    background: -moz-linear-gradient(left top, #800 20%, #f0f1f5 80%);
+    background: linear-gradient(left top, #800 20%, #f0f1f5 80%);
+    background: -moz-linear-gradient(left top , #800 20%, #f0f1f5 80%) repeat scroll 0 0 transparent;
+}
+footer:before {
+    bottom: 0;
+    color: #f00;
+    content: "Develop";
+    font-weight: bold;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    text-shadow: 1px 1px 1px #383838;
+}
+footer:hover {
+    background: #f0f1f5;
+}
+footer:hover:before {
+    content: "";
+}

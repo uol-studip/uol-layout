@@ -1,0 +1,18 @@
+body, #page-margins, #rahmentabelle_kopf {
+    background-image: none !important;
+    background-color: #fff;
+}
+
+#header, #topnav, #navigation, #barTopMenuNKW, #breadcrumb, #rahmentabelle_navi,
+#navizeile, #footer, #barBottomrightNKW, #rahmentabelle_kopf, #tabs, #tabs2,
+#layout_infobox, #plugin_instfilter, #barTopStudip {
+    display: none;
+}
+
+#inhalt {
+    display: block;
+}
+
+#layout_content {
+    margin: 0;
+}

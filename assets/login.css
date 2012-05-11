@@ -1,0 +1,68 @@
+#header-navigation li:first-child {
+    z-index: 1000;
+}
+
+#unilogin {
+    background: #383838;
+    border-bottom: 1px solid white;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 13px;
+    left: 0;
+    line-height: 1.5em;
+    opacity: 0.9;
+    overflow: visible;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+    top: 0;
+    z-index: 100;
+}
+#unilogin a {
+    background: url(https://www.uni-oldenburg.de/img/objekte/studip_weiss-transparent.png) left center no-repeat;
+    display: block;
+    height: 18px;
+    padding: 2px 10px 5px;
+    text-indent: -9999px;
+    width: 74px;
+}
+#unilogin label {
+    font-family: MetaWeb, Delicious, Arial, Sans-Serif;
+    font-size: 13px;
+}
+#unilogin input[type=text], #unilogin input[type=password] {
+    background: #e8e8e8;
+    border: 0;
+    color: #383838;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 3px;
+    width: 5.6em;
+}
+#unilogin input[type=submit], #unilogin input[type=reset] {
+    background: #383838;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: MetaWeb, Delicous, Arial, Sans-Serif;
+    font-size: 14px;
+    height: 24px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+/* Behaviour */
+#unilogin {
+    display: none;
+}
+#header-navigation li:hover #unilogin, #unilogin.focussed {
+    display: block !important;
+}

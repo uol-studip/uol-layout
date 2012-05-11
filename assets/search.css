@@ -1,0 +1,32 @@
+form#quicksearch {
+    background: #383838;
+    border: 1px solid #383838;
+    display: inline-block;
+    height: 23px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 44px;
+    vertical-align: top;
+}
+form#quicksearch .quicksearchbox, form#quicksearch .quicksearchbutton {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 14px;
+    margin: 0;
+    padding: 3px 2px;
+}
+form#quicksearch .quicksearchbox {
+    border: 0;
+    width: 200px;
+    padding-top: 5px;
+}
+form#quicksearch .quicksearchbox:focus {
+    color: #000;
+}
+form#quicksearch .quicksearchbutton {
+    padding-left: 2px;
+    padding-right: 4px;
+    padding-top: 2px;
+}

@@ -1,0 +1,151 @@
+@media only screen and (min-width : 1024px) {
+    /* Sticky menu */
+    .scrolled #header-navigation {
+        background: #0251a0;
+        border-bottom-left-radius: 10px;
+        box-shadow: 0 0 3px #383838;
+        padding: 6px 258px 5px 5px;
+        position: fixed;
+        right: 0;
+        top: 0px;
+        z-index: 100;
+    }
+/*
+   .scrolled #header-navigation {
+        padding-right: 193px;
+    }
+*/
+
+    .scrolled #quicksearch {
+        position: fixed;
+        top: 5px;
+        right: 15px;
+        z-index: 101;
+    }
+
+    .scrolled > ul.ui-autocomplete.header-search {
+        position: fixed !important;
+        left: auto !important;
+        right: 42px !important;
+        top: 29px !important;
+        z-index: 102 !important;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    #layout_page {
+        overflow-x: auto;
+    }
+
+    #index .indexpage {
+        background: none;
+    }
+    #index .indexpage img {
+        display: none;
+    }
+
+    #main-navigation {
+        padding: 0 16px;
+    }
+    #main-navigation > ul {
+        font-size: 0em;
+    }
+    #main-navigation > ul >li {
+        font-size: 1em;
+    }
+    #main-navigation ul > li > a {
+        height: 16px;
+        overflow: hidden;
+        padding: 3px 5px 10px !important;
+        width: 16px;
+    }
+    #main-navigation ul > li > a:hover {
+        padding: 3px 5px 10px;
+    }
+    #main-navigation  ul > li span:first-child {
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+    }
+    #main-navigation  ul > li.active span:first-child {
+        background-position: 0 center;
+    }
+    #main-navigation  ul > li:hover span:first-child {
+        background-position: -16px center;
+    }
+
+    #main-navigation  ul > li span:last-child {
+        display: none;
+    }
+
+    #main-navigation li.container > a > span:first-child {
+        background-image: url(assets/images/menu-more.png) !important;
+    }
+
+    #header-navigation {
+        right: 193px;
+    }
+
+    #header-navigation li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    #header-navigation a {
+        background-position: 4px 2px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 16px;
+        overflow: hidden;
+        padding: 2px 4px 5px;
+        text-indent: 200%;
+        vertical-align: middle;
+        width: 16px;
+        white-space: nowrap;
+    }
+    #header-navigation a[href*="index.php?again=yes"] {
+        background-image: url(assets/images/icons/16/white/door-enter.png);
+    }
+    #header-navigation a[href*="sso=cas"] {
+        background-image: url(assets/images/icons/16/red/door-enter.png);
+    }
+    #header-navigation a[href*="logout.php"] {
+        background-image: url(assets/images/icons/16/red/door-leave.png);
+    }
+    #header-navigation a[href*="edit_about.php?view=allgemein"] {
+        background-image: url(assets/images/icons/16/white/admin.png);
+    }
+    #header-navigation a[href="https://cas.elearning.uni-oldenburg.de/CasOwa/auth"] {
+        background-image: url(assets/images/icons/16/white/mail.png);
+    }
+    #header-navigation a[href*="dispatch.php/siteinfo/show"] {
+        background-image: url(assets/images/icons/16/white/question-circle.png);
+    }
+
+    form#quicksearch .quicksearchbox {
+        width: 142px;
+    }
+
+    #uni-logo {
+        background-position: -28px top;
+        width: 101px;
+    }
+
+    footer {
+        background: #f0f1f5 !important;
+        position: relative !important;
+    }
+    footer:before {
+        content: "" !important;
+    }
+
+}
+@media only screen and (max-width : 320px) {
+    #uni-logo {
+        background-position: -34px -44px;
+        height: 18px;
+        left: 3px;
+        top: 13px;
+        width: 184px;
+    }
+}

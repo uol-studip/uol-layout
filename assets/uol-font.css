@@ -1,0 +1,47 @@
+@font-face {
+    font-family: MetaWeb;
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Normal.eot");
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Normal.eot?#iefix") format('embedded-opentype'),
+/*		 url('https://www.uni-oldenburg.de/img/css3/font/meta/MetaScComp-Normal.ttf') format('truetype'),*/
+         url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Normal.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* then for WOFF-capable browsers */
+/*@font-face {
+    font-family: MetaWeb;
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Normal.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: MetaWeb;
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Bold.eot");
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Bold.eot?#iefix") format('embedded-opentype'),
+         /* url('https://www.uni-oldenburg.de/img/css3/font/meta/MetaScComp-Bold.ttf') format('truetype'), */
+         url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MetaWeb;
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-NormalIta.eot");
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-NormalIta.eot?#iefix") format('embedded-opentype'),
+/*		 url('https://www.uni-oldenburg.de/img/css3/font/meta/MetaScComp-NormalIta.ttf') format('truetype'),*/
+         url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-NormalIta.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: MetaWeb;
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-BoldIta.eot");
+    src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-BoldIta.eot?#iefix") format('embedded-opentype'),
+/*		 url('https://www.uni-oldenburg.de/img/css3/font/meta/MetaScComp-BoldIta.ttf') format('truetype'),*/
+         url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-BoldIta.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+}

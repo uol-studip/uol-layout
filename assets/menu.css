@@ -1,0 +1,204 @@
+#main-navigation a:link:hover, #main-navigation a:visited:hover,
+#header-navigation a:link:hover, #header-navigation a:visited:hover
+{
+    text-decoration: none;
+}
+
+
+/**
+ * Hauptnavigation
+ **/
+#main-navigation  {
+    background-color: #f0f1f5;
+    background-image: -webkit-linear-gradient(bottom, #888, #f0f1f5 5px);
+    background-image: -o-linear-gradient(bottom, #888, #f0f1f5 5px);
+    background-image: -ms-linear-gradient(bottom, #888, #f0f1f5 5px);
+    background-image: -moz-linear-gradient(bottom, #888, #f0f1f5 5px);
+    background-image: linear-gradient(bottom, #888, #f0f1f5 5px);
+    display: block;
+    padding: 0 15px 5px;
+}
+#main-navigation ul {
+    display: inline-block;
+    *display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+}
+#main-navigation li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #383838;
+    display: inline-block;
+    *display: inline;
+    position: relative;
+    vertical-align: top;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    zoom: 1;
+}
+#main-navigation > ul > li > span.bullet {
+    background-color: #d60000;
+    -webkit-border-radius: 9px 9px;
+    -moz-border-radius: 9px 9px;
+    border-radius: 9px 9px;
+    -webkit-box-shadow: #383838 0px 1px 3px;
+    -moz-box-shadow: #383838 0px 1px 3px;
+    box-shadow: #383838 0px 1px 3px;
+    color: #fff;
+    display: inline-block !important;
+    font-size: 10px;
+    font-weight: bold;
+    height: auto !important;
+    padding: 1px 5px !important;
+    position: absolute;
+    right: -4px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.496094 0px -1px 0px);
+    text-overflow: ellipsis;
+    top: -4px;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto !important;
+    max-width: 30px;
+}
+#main-navigation a, #main-navigation a:hover {
+    color: #383838;
+    display: inline-block;
+    font-family: MetaWeb, Delicious, Arial, Sans-Serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0;
+    padding: 3px 8px;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    transition: color 0.5s;
+}
+#main-navigation li:hover {
+    background-color: #383838;
+}
+#main-navigation li:hover > a {
+    color: white !important;
+}
+#main-navigation li.active {
+    border-bottom: 1px solid #383838;
+}
+#main-navigation li.active a {
+    color: black;
+    font-weight: bold;
+}
+
+
+#main-navigation li span:first-child, #main-navigation br {
+    display: none;
+}
+#main-navigation li span:last-child {
+    height: auto;
+    width: auto;
+}
+
+#main-navigation li > a > span:first-child {
+    background-position: 0px center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
+#main-navigation > ul > li:first-child a {
+    display: inline-block;
+    *display: inline;
+    height: 16px;
+    padding: 3px 5px;
+    width: 16px;
+    zoom: 1;
+}
+#main-navigation > ul > li span:first-child {
+    background-position: 0px center;
+    height: 16px;
+    padding-top: 6px;
+    padding-bottom: 0;
+    width: 16px;
+}
+#main-navigation > ul > li:first-child span {
+    display: none;
+}
+#main-navigation > ul > li:first-child span:first-child {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+#main-navigation > ul > li:first-child:hover span:first-child {
+    background-position: -16px center;
+}
+#main-navigation ul ul {
+    background: #dbdce0;
+    box-shadow: 0px 16px 16px #383838;
+    display: none;
+    margin: 0;
+    padding: .5em 0;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+#main-navigation li:hover ul {
+    display: block;
+}
+#main-navigation li li {
+    display: block;
+    white-space: nowrap;
+}
+#main-navigation li li a {
+    text-align: left;
+}
+
+#breadcrumbs {
+    font-family: MetaWeb, Delicious, Arial, Sans-Serif;
+    margin-top: 3px;
+}
+
+/**
+ * Subnavigation: Login/Logout, Settings, Support
+ **/
+
+#header-navigation {
+    background: none;
+    float: right;
+    left: auto;
+    position: absolute;
+    right: 258px;
+    text-align: right;
+    top: 45px;
+    white-space: nowrap;
+}
+#header-navigation ul {
+    margin: 0;
+    padding: 0;
+}
+#header-navigation li {
+    display: inline;
+    list-style: none;
+    height: 24px;
+    line-height: 24px;
+    padding: 2px 4px;
+    position: relative;
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+#header-navigation a {
+    color: #fff;
+    font-family: MetaWeb, Delicious, Arial, Sans-Serif;
+    text-transform: uppercase;
+}
+#header-navigation li.active {
+    background-color: #007ddb;
+}
+#header-navigation li:hover {
+    background-color: #77b0ee;
+}
