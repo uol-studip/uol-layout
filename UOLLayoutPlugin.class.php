@@ -10,7 +10,7 @@
 
 class UOLLayoutPlugin extends StudIPPlugin implements SystemPlugin
 {
-    const CSS            = '/assets/uol-layout.v8.css';
+    const CSS            = '/assets/uol-layout.v11.css';
     const JS             = '/assets/uol-layout.v7.js';
     const ICON_ADMIN     = '/assets/images/admin.png';
     const ICON_COMMUNITY = '/assets/images/community.png';

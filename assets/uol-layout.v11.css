@@ -1,0 +1,227 @@
+body, input, textarea, td, blockquote, p, form, ul{font-family: Arial, Helvetica, sans-serif;font-size: 10pt;color: #000000;}
+body{min-height: 100.01%;padding: 0px;margin: 0px;background-color: #FFFFFF;}
+#page_margins{background:url(kopf-hg.gif) 0 -5px no-repeat transparent;min-width: 800px;}
+body{font-family:Arial, Helvetica, sans-serif;}
+h1,h2{font-size:1.3em;margin:0 0 0 0;font-weight:500;padding:0 0 0;font-family:Arial, Helvetica, Sans-Serif;font-size:1.4em;padding-bottom:1em;color:#365F8C;color:#235181;color:#2C345C;}
+h3{font-size:1.2em;margin:0 0 0.5em 0;font-weight:700;padding:0.5em 0;color:#0D59AB;color:#0C54A1;color:#365F8C;color:#235181;color:#2C345C;font-family:Arial, Sans-Serif;}
+h4{font-size: 1.0em;margin: 1.2em 0 0.2em 0;font-weight:600;color:#0C519B;color:#235181;color:#2C345C;}
+h1 + h4, h1 + h3{margin-top:0;}
+hr{height:0;border-top:1px solid #bEc0ca;margin-bottom:0.5em;margin-top:0.5em;}
+a:active{color: black;}
+.topic a, .topic a:link, .topic a:visited, .topic a:hover,.steel a, .steel a:link, .steel a:visited, .steel a:hover{text-decoration: none !important;}
+.topic a{color: #fff !important;}
+div#barBottomLeft{background-color: #5d74a0;padding-left: 15px;padding-right: 15px;font-size: 0.8em;height: 1.4em;text-align: right;vertical-align: middle;float: left;color: #a1b9c0;font-family: Arial, Helvetica, sans-serif;}
+div#barBottommiddle{background-color: #7387ac;text-align: left;vertical-align: middle;font-size: 0.8em;height: 1.4em;float: left;margin-right: -3px;padding: 0px;color: #ffffff;font-family: Arial, Helvetica, sans-serif;font-weight: bold;}
+#rahmentabelle{vertical-align: top;width: 100%;height: 100%;}
+#rahmentabelle_kopf{height: 90px;vertical-align: top;}
+#rahmentabelle_inhalt{vertical-align: top;background-color: #fff;margin: 0px;padding: 0px 25px 25px 25px;height: 100%;}
+.inday{font-size: 11pt;}
+td.topic,td.printhead2,td.printhead3{color: #FFFFFF;}
+td.toolbar, td.printhead{color: #333333;line-height: 150%;}
+td.topic b{color: white !important;}
+td.topic img{vertical-align: text-top !important;}
+.steel1, td.printcontent, .index_box_cell{background-image: none !important;background-color: #F2F2F2;}
+.steelgraulight{background-image: none !important;background-color: #E2E2E2;}
+td.steel1 td.steel1{border-width: 0;}
+td.steel1 ul.portal li{margin-left: 10px;list-style-image: url(li-grau.gif);}
+#page_margins{width: auto !important;}
+#site-titel{display: none;}
+td.links1a,td.linksinfo{border-bottom: 1px solid #000;}
+td.links1a,td.links1c{padding-left: 5px !important;padding-right: 5px !important;border-right: 1px solid #000;}
+td.links1a a.links1a,td.links1c a.links1c,td.links1b a.links1b{font-weight: 500 !important;color: #003966 !important;line-height: 150%;}
+td.links1a img,td.links1c img{display: none;}
+td.links1c{border-top: 1px solid #000;}
+td.links1b img{margin-right: 3px;position: relative;top: 1px;}
+a.toolbar{padding-top: 0px;padding-bottom: 0px;}
+a.toolbar img{padding: 0px;margin: 0px;vertical-align: middle;height: 21px;}
+#tabs a, #tabs2 a, #tabs a:link, #tabs2 a:link, #tabs a:visited, #tabs2 a:visited{font-weight:normal;color: black;}
+div.messagebox_info{color: #00529B;background-color: #bde5f8;}
+div.messagebox_success{color: #4F8A10;background-color: #dff2bf;}
+div.messagebox_warning{color: #D63301;background-color: #ffccba;}
+div.messagebox_error{color: #D8000C;background-color: #ffbaba;}
+#footer{text-align: right;width: 100%;position:fixed;bottom:0px;z-index:100;padding:0px;margin:0px;}
+.printhead2 a,.printhead3 a,#textkoerper a:hover img,#textkoerper a:focus img,#inhalt a:hover img,#inhalt a:focus img{text-decoration: none !important;}
+select,input,textarea{padding: 1px;font-size: 12px;font-family: Arial;}
+blockquote{padding: 10px !important;margin: 0px !important;}
+td.angemeldet table{padding: 5px;}
+td.blank{padding: 0px;line-height: normal;}
+td.angemeldet .blank{padding: 5px;}
+.steelgroup7{background-color: #D3DEF2;background-image: none;}
+.steel1 blockquote b font{font-size: 24pt;line-height: 150%;}
+table{margin: 0px;}
+.steel1, .steelgraulight, .steelgroup7{padding: 2px;}
+th, td.topic{padding: 3px;font-size: 10pt;}
+.topic, .topic b, .topic strong{font-size: 10pt;color:#FFFFFF;}
+table.steel1, table.steelgraulight{padding: 0px;}
+#barTopMenuNKW ul{padding: 0px;margin: 0px;list-style-type: none;}
+#barTopMenuNKW ul li{height: 26px;text-transform: uppercase;border-bottom: 1px solid #fff;padding-left: 5px;line-height: 190%;}
+#barTopMenuNKW ul li.open{background-color: #99C85B;}
+#barTopMenuNKW ul li:hover{background-color: #99C85B;}
+#barTopMenuNKW ul li a{font-size: 11px !important;font-weight: bold;cursor: pointer;height: 26px;display: block;background-position: left center;background-repeat: no-repeat;}
+#barTopMenuNKW ul li a div{height: 16px;width: 16px;background-position: 0px 0px;background-repeat: no-repeat;margin: 5px;float: left;}
+#barTopMenuNKW ul li a:hover div,#barTopMenuNKW ul li.active a:hover div,#barTopMenuNKW ul li.active a div{background-position: -16px 0px;}
+#barTopMenuNKW ul li a div.new{background-position: -32px 0px;}
+#barTopMenuNKW ul li a:hover div.new,#barTopMenuNKW ul li.active a:hover div.new,#barTopMenuNKW ul li.active a div.new{background-position: -48px 0px;}
+#barTopMenuNKW ul li a:hover{color: #000;text-decoration: none;background-color: #99C85B;}
+div.mainmenu a{background-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/blue/arr_1right.png);background-repeat: no-repeat;background-position: left center;padding-left: 20px;}
+div.mainmenu a:hover{background-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/red/arr_1right.png);}
+#quicksearch_autocomplete_choices ul li{z-index: 100;line-height: 100% !important;text-transform: none;height: auto;}
+#quicksearch_autocomplete_choices ul li:hover{background-color: #FFFFBB !important;}
+.indexpage{background-repeat: no-repeat;}
+#rahmentabelle_navi{vertical-align: top;}
+table.index_box, div.index_container{width:100%;}
+#ajax_notification{position: absolute;top: 75px;background-color: #FFF !important;left: 55%;margin-left: -40px;width: 80px;overflow: hidden;}
+#inhaltinfos,#inhaltinfos p{background-color: #E6EBDE !important;}
+#inhaltinfos p a:hover{background-color: #99C85B !important;}
+.infoboxrahmen{background-color: #DEE2E8;}
+.button{padding: 0px;}
+.speise_eintrag{margin-bottom: 5px;}
+.speise_preis{text-align: right;vertical-align: bottom;}
+div.messagebox{margin: 5px 0px !important;}
+div.quicksearch_frame{width: auto !important;}
+html, body{height: 100%;}
+#layout_wrapper{margin: 0 auto -24px;}
+#layout_push{height: 24px;}
+#layout_footer{background-color: #E6EBDE;border: 0px;margin: 0px;font-size: 12px;}
+#layout_footer ul{margin: 1px;}
+#layout_footer li{padding: 2px 0.5em 3px;display: inline;}
+div#barBottomright a, #layout_footer a{text-decoration: none;color: #24437C;margin: 0 6px;}
+@font-face{font-family: MetaWeb;src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Normal.eot");src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Normal.eot?#iefix") format('embedded-opentype'),url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Normal.woff") format("woff");font-weight: normal;font-style: normal;}
+@font-face{font-family: MetaWeb;src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Bold.eot");src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Bold.eot?#iefix") format('embedded-opentype'),url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-Bold.woff") format("woff");font-weight: bold;font-style: normal;}
+@font-face{font-family: MetaWeb;src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-NormalIta.eot");src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-NormalIta.eot?#iefix") format('embedded-opentype'),url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-NormalIta.woff") format("woff");font-weight: normal;font-style: italic;}
+@font-face{font-family: MetaWeb;src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-BoldIta.eot");src: url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-BoldIta.eot?#iefix") format('embedded-opentype'),url("https://www.uni-oldenburg.de/img/css3/font/meta/MetaWeb-BoldIta.woff") format("woff");font-weight: bold;font-style: italic;}
+header{background: #f0f1f5 url(https://www.uni-oldenburg.de/img/css3/bilder/bogen1200.png) 0 -10px no-repeat;display: block;height: 110px;position: relative;}
+header.small{background: #0251a0;height: 84px;}
+#uni-logo{background: transparent url(https://www.uni-oldenburg.de/img/rahmen/logo.gif) left top no-repeat;display: block;height: 76px;left: 0;position: absolute;text-indent: -999em;top: 0;width: 230px;}
+#studip-logo{background: transparent url(images/header-logo-klein.png) left top no-repeat;display: block;height: 22px;position: absolute;right: 15px;text-indent: -999em;top: 10px;width: 101px;}
+#main-navigation a:link:hover, #main-navigation a:visited:hover,#header-navigation a:link:hover, #header-navigation a:visited:hover{text-decoration: none;}
+#main-navigation{background-color: #f0f1f5;background-image: -webkit-linear-gradient(bottom, #ccc, #f0f1f5 5px);background-image: -o-linear-gradient(bottom, #ccc, #f0f1f5 5px);background-image: -ms-linear-gradient(bottom, #ccc, #f0f1f5 5px);background-image: -moz-linear-gradient(bottom, #ccc, #f0f1f5 5px);background-image: linear-gradient(bottom, #ccc, #f0f1f5 5px);display: block;padding: 0 15px 5px;}
+#main-navigation ul{display: inline-block;*display: inline;list-style: none;margin: 0;padding: 0;zoom: 1;}
+#main-navigation li{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;color: #383838;display: inline-block;*display: inline;position: relative;vertical-align: top;-webkit-transition: background-color 0.5s;-o-transition: background-color 0.5s;-moz-transition: background-color 0.5s;transition: background-color 0.5s;zoom: 1;}
+#main-navigation > ul > li > span.bullet{background-color: #d60000;-webkit-border-radius: 9px 9px;-moz-border-radius: 9px 9px;border-radius: 9px 9px;-webkit-box-shadow: #383838 0px 1px 3px;-moz-box-shadow: #383838 0px 1px 3px;box-shadow: #383838 0px 1px 3px;color: #fff;display: inline-block !important;font-size: 10px;font-weight: bold;height: auto !important;padding: 1px 5px !important;position: absolute;right: -4px;text-align: center;text-shadow: rgba(0, 0, 0, 0.496094 0px -1px 0px);text-overflow: ellipsis;top: -4px;vertical-align: top;white-space: nowrap;width: auto !important;max-width: 30px;}
+#main-navigation a, #main-navigation a:hover{color: #383838;display: inline-block;font-family: MetaWeb, Delicious, Arial, Sans-Serif;font-size: 16px;font-weight: normal;letter-spacing: 0;padding: 3px 8px;-webkit-transition: color 0.5s;-o-transition: color 0.5s;-moz-transition: color 0.5s;transition: color 0.5s;}
+#main-navigation li:hover{background-color: #383838;}
+#main-navigation li:hover > a{color: white !important;}
+#main-navigation li.active{border-bottom: 1px solid #383838;}
+#main-navigation li.active a{color: black;font-weight: bold;}
+#main-navigation li span:first-child, #main-navigation br{display: none;}
+#main-navigation li span:last-child{height: auto;width: auto;}
+#main-navigation li > a > span:first-child{background-position: 0px center;background-repeat: no-repeat;height: auto;width: auto;}
+#main-navigation > ul > li:first-child a{display: inline-block;*display: inline;height: 16px;padding: 3px 5px;width: 16px;zoom: 1;}
+#main-navigation > ul > li span:first-child{background-position: 0px center;height: 16px;padding-top: 6px;padding-bottom: 0;width: 16px;}
+#main-navigation > ul > li:first-child span{display: none;}
+#main-navigation > ul > li:first-child span:first-child{display: inline-block;*display: inline;zoom: 1;}
+#main-navigation > ul > li:first-child:hover span:first-child{background-position: -16px center;}
+#main-navigation ul ul{background: #dbdce0;box-shadow: 0px 16px 16px #383838;display: none;margin: 0;padding: .5em 0;position: absolute;right: 0;z-index: 10;}
+#main-navigation li:hover ul{display: block;}
+#main-navigation li li{display: block;white-space: nowrap;}
+#main-navigation li li a{text-align: left;}
+#breadcrumbs{font-family: MetaWeb, Delicious, Arial, Sans-Serif;margin-top: 3px;}
+#header-navigation{background: none;float: right;left: auto;position: absolute;right: 258px;text-align: right;top: 45px;white-space: nowrap;}
+#header-navigation ul{margin: 0;padding: 0;}
+#header-navigation li{display: inline;list-style: none;height: 24px;line-height: 24px;padding: 2px 4px;position: relative;-webkit-transition: background-color 0.5s;-o-transition: background-color 0.5s;-moz-transition: background-color 0.5s;-ms-transition: background-color 0.5s;transition: background-color 0.5s;}
+#header-navigation a{color: #fff;font-family: MetaWeb, Delicious, Arial, Sans-Serif;text-transform: uppercase;}
+#header-navigation li.active{background-color: #007ddb;}
+#header-navigation li:hover{background-color: #77b0ee;}
+#header-navigation li:first-child{z-index: 1000;}
+#unilogin{background: #383838;border-bottom: 1px solid white;-webkit-border-radius: 2px;-o-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;color: #fff;font-size: 13px;left: 0;line-height: 1.5em;opacity: 0.9;overflow: visible;padding: 20px;position: absolute;text-align: left;text-transform: uppercase;top: 0;z-index: 100;}
+#unilogin a{background: url(https://www.uni-oldenburg.de/img/objekte/studip_weiss-transparent.png) left center no-repeat;display: block;height: 18px;padding: 2px 10px 5px;text-indent: -9999px;width: 74px;}
+#unilogin label{font-family: MetaWeb, Delicious, Arial, Sans-Serif;font-size: 13px;}
+#unilogin input[type=text], #unilogin input[type=password]{background: #e8e8e8;border: 0;color: #383838;display: block;font-family: Arial, Helvetica, sans-serif;font-size: 16px;margin-bottom: 5px;padding: 3px;width: 5.6em;}
+#unilogin input[type=submit], #unilogin input[type=reset]{background: #383838;border: 0;color: #fff;cursor: pointer;font-family: MetaWeb, Delicous, Arial, Sans-Serif;font-size: 14px;height: 24px;letter-spacing: 1px;margin: 0;padding: 2px;text-transform: uppercase;}
+#unilogin{display: none;}
+#header-navigation li:hover #unilogin, #unilogin.focussed{display: block !important;}
+form#quicksearch{background: #383838;border: 1px solid #383838;display: inline-block;height: 23px;overflow: hidden;padding: 0;position: absolute;right: 15px;top: 44px;vertical-align: top;}
+form#quicksearch .quicksearchbox, form#quicksearch .quicksearchbutton{display: inline-block;font-size: 13px;line-height: 14px;margin: 0;padding: 3px 2px;}
+form#quicksearch .quicksearchbox{border: 0;width: 200px;padding-top: 5px;}
+form#quicksearch .quicksearchbox:focus{color: #000;}
+form#quicksearch .quicksearchbutton{padding-left: 2px;padding-right: 4px;padding-top: 2px;}
+#tabs li{border-bottom: 1px solid #444 !important;border-right-color: #444;}
+#tabs li:first-child{border-left: 1px solid #BEC0CA;}
+#tabs li:last-child{border-right: 1px solid #BEC0CA;}
+#tabs a{background: #e6e7e9;color: #fff;-webkit-transition: 0.5s;-ms-transition: 0.5s;-moz-transition: 0.5s;-o-transition: 0.5s;transition: 0.5s;}
+#tabs li.current a{background: #0251a0;box-shadow: 0 0 3px #383838 inset;color: #fff;text-shadow: 0 0 2px #000;}
+#tabs a:hover, #tabs li.current a:hover{background: #383838;color: #fff;}
+footer{background: #f0f1f5;border-top: 1px solid #383838;bottom: 0;clear: both;display: block;left: 0;position: fixed;right: 0;text-align: right;z-index: 1000;}
+footer ul{list-style: none;margin: 1px;}
+footer li{display: inline;height: 24px;line-height: 24px;margin: 0;padding: 2px 0 3px;}
+footer a{color: #888888 !important;margin: 0 6px;padding: 2px 0.5em;text-decoration: none;-webkit-transition: 0.5s;-o-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+footer a:hover{background-color: #9ab9d8;color: #000 !important;}
+footer ul{margin: 0;margin-top: 1px;margin-right: 15px;}
+footer li{margin: 0 2px;padding: 0;}
+footer a{margin: 0;padding: 5px 8px;}
+a{-webkit-transition: color 0.3s;-o-transition: color 0.3s;-ms-transition: color 0.3s;-moz-transition: color 0.3s;transition: color 0.3s;}
+a:link:hover, a:visited:hover{text-decoration: underline;}
+body{background: #fff;}
+#layout_wrapper{background-color: #fff;margin: 0;min-width: 280px;padding-bottom: 3em;}
+.messagebox{box-shadow: 2px 2px 3px #888;-webkit-border-radius: 2px;-o-border-radius: 2px;-ms-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;}
+#layout_sidebar{border-left: 0;margin-left: 0;}
+table.infobox td{background: none;border-color: #bec0ca;}
+table.infobox td.infoboxrahmen{background: -webkit-linear-gradient(top, #d5dbeb 0.5em, white 3em);background: -o-linear-gradient(top, #d5dbeb 0.5em, white 3em);background: -moz-linear-gradient(top, #d5dbeb 0.5em, white 3em);background: linear-gradient(top, #d5dbeb 0.5em, white 3em);padding: 8px 2px 16px 8px;}
+.topic{background: #0251a0;}
+h2.topic{-webkit-border-top-left-radius: 2px;-o-border-top-left-radius: 2px;-moz-border-radius-topleft: 2px;border-top-left-radius: 2px;-webkit-border-top-right-radius: 2px;-o-border-top-right-radius: 2px;-moz-border-radius-topright: 2px;border-top-right-radius: 2px;}
+div.mainmenu a{white-space: nowrap;}
+body > ul.ui-autocomplete.header-search{left: auto !important;right: 42px !important;top: 68px !important;}
+div.unhidesidebar{border-right:8px solid #DEE2E8;width:27px;float:right;}
+.portal-page{width: 100%;}
+.portal-page > div{display: -moz-inline-stack;display: inline-block;zoom: 1;*display: inline;margin: 0 1% 1em 0;min-width: 400px;vertical-align: top;width: 48.5%;}
+.portal-page > div:last-child{margin-right: 0;}
+.portal-page .index_box{margin-bottom: 0;}
+.portal-page section, .portal-page table{box-shadow: 2px 2px 3px #ccc;}
+.portal-page h2{background: #0251a0;color: #fff !important;font-size: 1em;font-weight: bold;margin: 0;padding: 3px;}
+.portal-page section{background: #f2f2f2;display: block;margin: 1em 0 0 0;padding: 0;}
+.portal-page section:first-child{margin-top: 0;}
+.portal-page table table{box-shadow: none;border: 0;}
+.portal-page ul, .portal-page p, .portal-page dl, .portal-page form{margin: 0.5em;padding: 0;}
+.portal-page p{text-align: justify;}
+.portal-page ul{padding-left: 4em;}
+.portal-page li{list-style-image: url(images/li-grau.gif);margin-top: 5px;}
+.portal-page li.label-info{list-style-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/grey/info-circle.png);}
+.portal-page li.label-mail{list-style-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/grey/mail.png);}
+.portal-page li.label-community{list-style-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/grey/community.png);}
+.portal-page li.label-support{list-style-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/grey/support.png);}
+.portal-page li.label-locked{list-style-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/grey/lock-locked.png);}
+.portal-page dt, .portal-page dd{display: inline-block;margin: 0;padding: 0;width: 49%;}
+.portal-page dt:after{content: ":";}
+.portal-page dd{text-align: right;}
+.portal-page .floated{border: 0;float: left;margin-right: 3em;}
+.portal-page .two-columns{list-style: none;margin: 0;padding: 0;width: 100%;}
+.portal-page .two-columns > li{display: inline-block;vertical-align: top;width: 47.5%;}
+.portal-page:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.portal-page a.tree{font-weight: normal !important;}
+.portal-page div[id^=news_item][id$=content] .printcontent[valign=bottom]{padding-right: 22px;text-align: justify;}
+.portal-page .divider{padding: 0.5em 0;text-align: center;}
+.portal-page .divider a{background: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/grey/arr_1down.png) left center no-repeat;padding-left: 20px;margin: 0 0.5em;}
+@media only screen and (min-width : 1024px){.scrolled #header-navigation{background: #0251a0;border-bottom-left-radius: 10px;box-shadow: 0 0 3px #383838;padding: 6px 258px 5px 5px;position: fixed;right: 0;top: 0px;z-index: 100;}
+.scrolled #quicksearch{position: fixed;top: 5px;right: 15px;z-index: 101;}
+.scrolled > ul.ui-autocomplete.header-search{position: fixed !important;left: auto !important;right: 42px !important;top: 29px !important;z-index: 102 !important;}
+}
+@media only screen and (max-width : 480px){#layout_page{overflow-x: auto;}
+#index .indexpage{background: none;}
+#index .indexpage img{display: none;}
+#main-navigation{padding: 0 16px;}
+#main-navigation > ul{font-size: 0em;}
+#main-navigation > ul >li{font-size: 1em;}
+#main-navigation ul > li > a{height: 16px;overflow: hidden;padding: 3px 5px 10px !important;width: 16px;}
+#main-navigation ul > li > a:hover{padding: 3px 5px 10px;}
+#main-navigation  ul > li span:first-child{display: inline-block;height: 16px;width: 16px;}
+#main-navigation  ul > li.active span:first-child{background-position: 0 center;}
+#main-navigation  ul > li:hover span:first-child{background-position: -16px center;}
+#main-navigation  ul > li span:last-child{display: none;}
+#main-navigation li.container > a > span:first-child{background-image: url(https://elearning.uni-oldenburg.de/plugins_packages/UOL/UOLLayoutPlugin/assets/images/menu-more.png) !important;}
+#header-navigation{right: 193px;}
+#header-navigation li{display: inline-block;margin: 0;padding: 0;}
+#header-navigation a{background-position: 4px 2px;background-repeat: no-repeat;display: inline-block;height: 16px;overflow: hidden;padding: 2px 4px 5px;text-indent: 200%;vertical-align: middle;width: 16px;white-space: nowrap;}
+#header-navigation a[href*="index.php?again=yes"]{background-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/white/door-enter.png);}
+#header-navigation a[href*="sso=cas"]{background-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/red/door-enter.png);}
+#header-navigation a[href*="logout.php"]{background-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/red/door-leave.png);}
+#header-navigation a[href*="edit_about.php?view=allgemein"]{background-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/white/admin.png);}
+#header-navigation a[href="https://cas.elearning.uni-oldenburg.de/CasOwa/auth"]{background-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/white/mail.png);}
+#header-navigation a[href*="dispatch.php/siteinfo/show"]{background-image: url(https://elearning.uni-oldenburg.de/assets/images/icons/16/white/question-circle.png);}
+form#quicksearch .quicksearchbox{width: 142px;}
+#uni-logo{background-position: -28px top;width: 101px;}
+footer{background: #f0f1f5 !important;position: relative !important;}
+footer:before{content: "" !important;}
+}
+@media only screen and (max-width : 320px){#uni-logo{background-position: -34px -44px;height: 18px;left: 3px;top: 13px;width: 184px;}
+}

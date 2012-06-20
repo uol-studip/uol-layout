@@ -24,7 +24,7 @@
 }
 
 .portal-page section, .portal-page table {
-    box-shadow: 3px 3px 5px #888;
+    box-shadow: 2px 2px 3px #ccc;
 }
 
 .portal-page h2 {
@@ -36,10 +36,13 @@
     padding: 3px;
 }
 
+
+/*
 .portal-page section, .portal-page table {
     border: 1px solid #888;
     border-top: 0;
 }
+*/
 
 .portal-page section {
     background: #f2f2f2;

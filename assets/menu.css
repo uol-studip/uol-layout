@@ -10,11 +10,11 @@
  **/
 #main-navigation  {
     background-color: #f0f1f5;
-    background-image: -webkit-linear-gradient(bottom, #888, #f0f1f5 5px);
-    background-image: -o-linear-gradient(bottom, #888, #f0f1f5 5px);
-    background-image: -ms-linear-gradient(bottom, #888, #f0f1f5 5px);
-    background-image: -moz-linear-gradient(bottom, #888, #f0f1f5 5px);
-    background-image: linear-gradient(bottom, #888, #f0f1f5 5px);
+    background-image: -webkit-linear-gradient(bottom, #ccc, #f0f1f5 5px);
+    background-image: -o-linear-gradient(bottom, #ccc, #f0f1f5 5px);
+    background-image: -ms-linear-gradient(bottom, #ccc, #f0f1f5 5px);
+    background-image: -moz-linear-gradient(bottom, #ccc, #f0f1f5 5px);
+    background-image: linear-gradient(bottom, #ccc, #f0f1f5 5px);
     display: block;
     padding: 0 15px 5px;
 }
